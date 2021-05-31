@@ -7,7 +7,6 @@ def try_me():
 
     print_red_on_cyan = lambda x: cprint(x, 'red', 'on_cyan')
     print_red_on_cyan('Hello, World!')
-    print_red_on_cyan('Hello, Universe!')
 
     for i in range(10):
         cprint(i, 'magenta', end=' ')
